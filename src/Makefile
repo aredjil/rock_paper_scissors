@@ -12,3 +12,5 @@ clean::
 	@$(RM) *.o main.x 
 # Remove the data folder 
 	@$(RM) -rf ../data 
+# Remove the figures directory 
+	@$(RM) -rf ../figs

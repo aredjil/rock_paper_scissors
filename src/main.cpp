@@ -34,17 +34,17 @@ int main(int argc, char *argv[])
     payoffs rewards;
     // Default enteries for the payoff matrix
     //  First row
-    rewards.a = 0.01;
+    rewards.a = 0.0;
     rewards.b = -1.0;
     rewards.c = 1.0;
     // Second row
     rewards.d = 1.0;
-    rewards.e = 0.01;
+    rewards.e = 0.0;
     rewards.f = -1.0;
     // Third row
     rewards.g = -1.0;
     rewards.h = 1.0;
-    rewards.i = 0.01;
+    rewards.i = 0.0;
 
     PetscCall(PetscInitialize(&argc, &argv, NULL, NULL));
     // Get the initial distrubution of the species 1, 2, and 3

@@ -1,0 +1,29 @@
+Bottleneck @ file:///croot/bottleneck_1731058641041/work
+colorama @ file:///work/perseverance-python-buildout/croot/colorama_1728388434940/work
+contourpy @ file:///croot/contourpy_1732540045555/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+fonttools @ file:///work/perseverance-python-buildout/croot/fonttools_1728392640388/work
+kiwisolver @ file:///work/perseverance-python-buildout/croot/kiwisolver_1728393027160/work
+matplotlib==3.9.2
+mkl-service==2.4.0
+mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
+mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
+numexpr @ file:///io/perseverance-python-buildout/croot/numexpr_1731701292781/work
+numpy @ file:///croot/numpy_and_numpy_base_1730835581507/work/dist/numpy-2.1.3-cp313-cp313-linux_x86_64.whl#sha256=93cc19de59d42f9bf7c3d5ba08393a478655029d2a15deb048523ce617da711c
+packaging @ file:///work/perseverance-python-buildout/croot/packaging_1728384169393/work
+pandas @ file:///croot/pandas_1732735089971/work/dist/pandas-2.2.3-cp313-cp313-linux_x86_64.whl#sha256=248baa16b8f7b48e3a9c0e641fba9a72bce9c95c0dddf7c9a7547016b61fe3fb
+pillow @ file:///croot/pillow_1734504961884/work
+ply @ file:///work/perseverance-python-buildout/croot/ply_1728388117008/work
+pyparsing @ file:///work/perseverance-python-buildout/croot/pyparsing_1728393206655/work
+PyQt5==5.15.10
+PyQt5_sip @ file:///work/perseverance-python-buildout/croot/pyqt-split_1728393264945/work/pyqt_sip
+python-dateutil @ file:///work/perseverance-python-buildout/croot/python-dateutil_1728385355105/work
+pytz @ file:///work/perseverance-python-buildout/croot/pytz_1728386814080/work
+scipy @ file:///croot/scipy_1731622509417/work/dist/scipy-1.14.1-cp313-cp313-linux_x86_64.whl#sha256=992b820a3b90573c91ef0370fac7c678b1de29685025ca87300f688b3529114e
+setuptools==72.1.0
+sip @ file:///work/perseverance-python-buildout/croot/sip_1728392363116/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tornado @ file:///work/perseverance-python-buildout/croot/tornado_1728385475803/work
+tqdm @ file:///opt/conda/conda-bld/tqdm_1647339053476/work
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+wheel==0.44.0
