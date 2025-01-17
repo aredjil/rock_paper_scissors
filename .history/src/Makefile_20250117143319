@@ -1,0 +1,16 @@
+all: main.x 
+
+include ${PETSC_DIR}/lib/petsc/conf/variables
+include ${PETSC_DIR}/lib/petsc/conf/rules
+
+include ${PETSC_DIR}/lib/petsc/conf/test
+# Add custom rules
+main.x: main.o
+	-$(CLINKER) $< -o $@ $(PETSC_LIB)
+clean::
+# Remove the objects and excutable
+	@$(RM) *.o main.x 
+# Remove the data folder 
+	@$(RM) -rf ../data 
+# Remove the figures directory 
+	
