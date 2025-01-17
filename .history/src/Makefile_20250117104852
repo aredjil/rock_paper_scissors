@@ -1,0 +1,12 @@
+all: main.x 
+
+include ${PETSC_DIR}/lib/petsc/conf/variables
+include ${PETSC_DIR}/lib/petsc/conf/rules
+
+include ${PETSC_DIR}/lib/petsc/conf/test
+# Add custom rules
+main.x: main.o
+	-$(CLINKER) $< -o $@ $(PETSC_LIB)
+clean::
+	@$(RM) *.o main.x ../data/*csv
+	

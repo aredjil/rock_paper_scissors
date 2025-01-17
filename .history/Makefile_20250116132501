@@ -1,0 +1,3 @@
+all: ex1 ex2 ex5 ex6 
+include ${PETSC_DIR}/lib/petsc/conf/variables
+include ${PETSC_DIR}/lib/petsc/conf/rules
